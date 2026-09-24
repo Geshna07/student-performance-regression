@@ -1,0 +1,4 @@
+Model,R2_Score,RMSE
+Simple Linear Regression,0.323,5.717
+Polynomial Regression,0.364,5.539
+Multiple Linear Regression,0.764,3.378

@@ -1,0 +1,84 @@
+============================================================
+PREDICTING STUDENT ACADEMIC PERFORMANCE USING REGRESSION
+============================================================
+
+DATASET
+------------------------------------------------------------
+Number of Students: 100
+Number of Variables: 6
+
+Variables:
+1. Student_ID
+2. Study_Hours
+3. Attendance
+4. Assignment_Score
+5. Previous_Marks
+6. Final_Marks
+
+DATA VALIDATION
+------------------------------------------------------------
+Missing Values: 0
+Duplicate Rows: 0
+
+CORRELATION WITH FINAL MARKS
+------------------------------------------------------------
+Study_Hours: 0.568
+Previous_Marks: 0.378
+Attendance: 0.223
+Assignment_Score: 0.150
+
+SIMPLE LINEAR REGRESSION
+------------------------------------------------------------
+Input Variable: Study_Hours
+Target Variable: Final_Marks
+
+R² Score: 0.323
+RMSE: 5.717
+
+POLYNOMIAL REGRESSION
+------------------------------------------------------------
+Input Variable: Study_Hours
+Target Variable: Final_Marks
+Polynomial Degree: 2
+
+Equation:
+Final_Marks = 73.43 + (5.20 × Study_Hours)
+              - (0.30 × Study_Hours²)
+
+R² Score: 0.364
+RMSE: 5.539
+
+MULTIPLE LINEAR REGRESSION
+------------------------------------------------------------
+Input Variables:
+Study_Hours
+Attendance
+Assignment_Score
+Previous_Marks
+
+Target Variable:
+Final_Marks
+
+Equation:
+Final_Marks = 29.54
++ (2.12 × Study_Hours)
++ (0.18 × Attendance)
++ (0.19 × Assignment_Score)
++ (0.32 × Previous_Marks)
+
+R² Score: 0.764
+RMSE: 3.378
+
+LIVE PREDICTION TEST
+------------------------------------------------------------
+Study Hours: 7
+Attendance: 85
+Assignment Score: 80
+Previous Marks: 75
+
+Predicted Final Marks: 99.14
+Predicted Performance: Excellent
+
+============================================================
+END OF RESULTS
+============================================================
