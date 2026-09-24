@@ -76,3 +76,7 @@ Regression Models
 Model Evaluation
         ↓
 Live Prediction
+
+## 🖥️ Prediction Demo
+
+![Prediction Demo](graphs/prediction_demo.png)
